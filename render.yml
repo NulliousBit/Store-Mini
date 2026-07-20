@@ -1,0 +1,9 @@
+services:
+  - type: static
+    name: nullious
+    buildCommand: ""
+    staticPublishPath: .
+    headers:
+      - path: /*
+        name: Access-Control-Allow-Origin
+        value: "*"
